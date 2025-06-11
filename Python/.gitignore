@@ -1,0 +1,41 @@
+# Środowiska Pythona i Conda
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+/Anaconda/
+/envs/
+*.conda
+
+# Pliki tymczasowe i cache
+*.log
+*.cache
+.ipynb_checkpoints/
+*.DS_Store  # dla macOS
+Thumbs.db   # dla Windows
+
+# Pliki Jupyter Notebook
+*.ipynb_checkpoints
+
+# Pliki specyficzne dla VS Code
+.vscode/
+
+# Pliki danych lub dużych plików
+*.csv
+*.json
+*.h5
+*.pkl
+*.parquet
+
+# Inne
+/build/
+/dist/
+
+
+# Wlasne pliki konfiguracyjne
+Pliki do pracy/  
